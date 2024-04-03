@@ -1,0 +1,447 @@
+@font-face {
+    font-family: 'SOGANGUNIVERSITYTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SOGANGUNIVERSITYTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    line-height: 1.5;
+    min-width: 1320px;
+    font-size: 16px;
+}
+
+.body_in{
+    width: 100%;
+    min-width: 1320px;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+.header_in ul{
+    font-family: 'SOGANGUNIVERSITYTTF';
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* 헤더 */
+header {
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.header_in {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.h_left {
+    padding-left: 5%;
+}
+
+.h_right {
+    padding-right: 5%;
+}
+
+.header_in ul a {
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+.header_in ul a:hover{
+    opacity: 1;
+}
+
+.logo{
+    opacity: 0.7;
+}
+
+.logo:hover{
+    opacity: 1;
+}
+
+/* 메뉴 */
+.popup_back{
+    margin: auto;
+    position: fixed;
+    box-sizing: border-box;
+    font-family: 'SOGANGUNIVERSITYTTF';
+    display: none;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.popup{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    align-content: flex-start;
+}
+
+
+.popup_left{
+    margin-right: 300px;
+}
+
+.popup h1{
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.popup h2{
+    width: 100%;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.popup a{
+    color: #000;
+    opacity: 0.8;
+}
+
+.popup a:hover{
+    color: #ff0000;
+}
+
+/* 장바구니 */
+.popup_back2{
+    margin: auto;
+    position: fixed;
+    box-sizing: border-box;
+    display: none;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.popup2{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    align-content: flex-start;
+}
+
+.popup2_left h1{
+    font-family: 'SOGANGUNIVERSITYTTF';
+    font-size: 60px;
+    margin-bottom: 50px;
+    color: #ff0000;
+}
+
+.popup2 h2{
+    width: 100%;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    font-family: 'SOGANGUNIVERSITYTTF';
+    margin-bottom: 80px;
+}
+
+.popup2 a{
+    color: #000;
+}
+
+.popup2 a:hover{
+    color: #ff0000;
+}
+
+.popup2_right{
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.popup2_right div{
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    width: 460px;
+}
+
+.popup2_right> h4{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+    width: 460px;
+}
+
+.order p{
+    padding-top: 30px;
+}
+
+.order3{
+    border-bottom: 1px solid #000;
+}
+
+.order4{
+    padding-top: 30px;
+}
+
+.popup2_left img{
+    display: block;
+}
+
+.popup2_left{
+    position: relative;
+}
+
+.popup2_left h3{
+    position: absolute;
+    top: 50%;
+    left: 14%;
+    font-size: 30px;
+    font-weight: 500;
+    color: #8d8d8d;
+}
+/* 메인배너 */
+.main_banner{
+    background: url(../image/3_shop/shop_banner.png)no-repeat center top fixed;
+    height: 800px;
+    background-size: cover;
+    text-align: center;
+}
+
+.main_banner h1{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 300px;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+    
+}
+
+.list{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 32px;
+    font-weight: 400;
+    justify-content: center;
+    color: #fff;
+}
+
+.list li a{
+    color: #fff;
+}
+
+/* 전통주 */
+.box1 h1{
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid #b7b7b7;
+    border-bottom: 1px solid #b7b7b7;
+    width: 336px;
+    margin: 180px auto;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.bottle1{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1320px;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.box2{
+    border: 1px solid #707070;
+    text-align: center;
+    width: 380px;
+    position: relative;
+}
+
+.box2> div > img{
+    display: block;
+    margin: auto;
+    padding: 55px 0 35px;
+}
+
+.box2 h2{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.box2 h3{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.box2 p{
+    margin-bottom: 55px;
+    color: #707070;
+}
+
+.bottle1_cover img{
+    display: block;
+}
+
+.box2{
+    position: relative;
+    height: 583px;
+    margin-bottom: 80px;
+}
+
+.bottle1_cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.box2:hover .bottle1_cover{
+    opacity: 1;
+}
+
+.box2:hover .bottle_small{
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.bottle1_cover h4{
+    position: absolute;
+    top: 280px;
+    left: 105px;
+    display: inline-block;
+    font-size: 23px;
+    color: #fff;
+    background-color: rgba(214, 214, 214, 0.6);
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 5px 25px;
+    font-weight: 400;
+    transition: all 0.2s;
+}
+
+.bottle1_cover h4:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+/* 푸터 */
+footer{
+    background-color: #000;
+    height: 700px;
+    margin-top: 150px;
+}
+
+footer p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer_in{
+    width: 1320px;
+    margin: auto;
+    padding-top: 170px;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_in img{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.f_left a{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.f_left a:hover{
+    color: #B7B7B7;
+    font-weight: 500;
+    border-bottom: 1px solid #B7B7B7;
+}
+
+.p_t{
+    padding-top: 50px;
+}
+
+.f_left h4{
+    color: #B7B7B7;
+    margin-top: 50px;
+}
+
+.f_middle{
+    margin-top: 180px;
+}
+
+.f_right a{
+    display: block;
+    margin-top: 180px;
+}
+
+.warning{
+    padding-top: 55px;
+    font-size: 13px;
+    color: #B7B7B7;
+}

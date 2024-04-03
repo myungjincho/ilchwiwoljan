@@ -1,0 +1,361 @@
+@font-face {
+    font-family: 'SOGANGUNIVERSITYTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SOGANGUNIVERSITYTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    line-height: 1.5;
+    min-width: 1320px;
+    font-size: 20px;
+}
+
+.body_in {
+    width: 100%;
+    min-width: 1320px;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+.header_in ul {
+    font-family: 'SOGANGUNIVERSITYTTF';
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* 헤더 */
+header {
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.header_in {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.h_left {
+    padding-left: 5%;
+}
+
+.h_right {
+    padding-right: 5%;
+}
+
+.header_in ul a {
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+.header_in ul a:hover {
+    opacity: 1;
+}
+
+.logo {
+    opacity: 0.7;
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
+/* 메뉴 */
+.popup_back {
+    margin: auto;
+    position: fixed;
+    box-sizing: border-box;
+    font-family: 'SOGANGUNIVERSITYTTF';
+    display: none;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.popup {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    align-content: flex-start;
+}
+
+
+.popup_left {
+    margin-right: 300px;
+}
+
+.popup h1 {
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.popup h2 {
+    width: 100%;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.popup a {
+    color: #000;
+    opacity: 0.8;
+}
+
+.popup a:hover {
+    color: #ff0000;
+}
+
+/* 장바구니 */
+.popup_back2 {
+    margin: auto;
+    position: fixed;
+    box-sizing: border-box;
+    display: none;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.popup2 {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    align-content: flex-start;
+}
+
+.popup2_left h1 {
+    font-family: 'SOGANGUNIVERSITYTTF';
+    font-size: 60px;
+    margin-bottom: 50px;
+    color: #ff0000;
+}
+
+.popup2 h2 {
+    width: 100%;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    font-family: 'SOGANGUNIVERSITYTTF';
+    margin-bottom: 80px;
+}
+
+.popup2 a {
+    color: #000;
+}
+
+.popup2 a:hover {
+    color: #ff0000;
+}
+
+.popup2_right {
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.popup2_right div {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    width: 460px;
+}
+
+.popup2_right>h4 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+    width: 460px;
+}
+
+.order p {
+    padding-top: 30px;
+}
+
+.order3 {
+    border-bottom: 1px solid #000;
+}
+
+.order4 {
+    padding-top: 30px;
+}
+
+.popup2_left img {
+    display: block;
+}
+
+.popup2_left {
+    position: relative;
+}
+
+.popup2_left h3 {
+    position: absolute;
+    top: 50%;
+    left: 14%;
+    font-size: 30px;
+    font-weight: 500;
+    color: #8d8d8d;
+}
+
+.text_wrap h1,
+h2 {
+    text-align: center;
+}
+
+.text_wrap h1 {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 60px 0 20px;
+}
+
+.text_wrap h2 {
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 150px;
+}
+
+/* 로그인 페이지 */
+.login-wrapper {
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 200px auto;
+}
+
+.login-wrapper>h2 {
+    font-size: 60px;
+    color: #ff0000;
+    margin-bottom: 20px;
+    font-family: 'SOGANGUNIVERSITYTTF';
+}
+
+#login-form>input {
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border: 1px solid #d9d9d9;
+}
+
+#login-form>input::placeholder {
+    color: #a4a4a4;
+}
+
+#login-form>input[type="submit"] {
+    color: #fff;
+    font-size: 16px;
+    background-color: #000;
+    margin-top: 10px;
+}
+
+#login-form>input[type="checkbox"] {
+    display: none;
+}
+
+#login-form>label {
+    color: #a4a4a4;
+}
+
+.chk_box {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* 기본 체크박스 숨기기 */
+.chk_box input[type="checkbox"] {
+    display: none;
+}
+
+/* 선택되지 않은 체크박스 스타일 꾸미기 */
+.on {
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* 선택된 체크박스 스타일 꾸미기 */
+.chk_box input[type="checkbox"]:checked+.on {
+    background: #000;
+}
+
+.on:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.chk_box input[type="checkbox"]:checked+.on:after {
+    display: block;
+}
+
+.on:after {
+    width: 6px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    left: 6px;
+    top: 2px;
+}

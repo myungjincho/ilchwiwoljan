@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+    <link href="./image/index/baby_logo.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+    <title>일취월잔</title>
+    <!-- 폰트 -->
+    <link href="https://webfontworld.github.io/pretendard/Pretendard.css" rel="stylesheet">
+
+    <!-- 내 css -->
+    <link rel="stylesheet" href="./css/loginpage.css">
+</head>
+
+<body>
+    <div class="body_in">
+        <!-- 헤더 -->
+        <header>
+            <div class="header_in">
+                <ul class="h_left">
+                    <li><a href="#none">Cart ()</a></li>
+                </ul>
+
+                <a href="./index.html"><img src="./image/index/1_main/logo.png" alt="일취월잔 로고" class="logo"></a>
+
+                <ul class="h_right">
+                    <li><a href="#none">Menu</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- 헤더 -->
+
+        <!-- 메뉴 -->
+        <div class="popup_back">
+            <div class="popup">
+                <h2><a href="#none">Close</a></h2>
+                <div class="popup_left">
+                    <h1><a href="./sub1_about.html">ABOUT</a></h1>
+                    <h1><a href="./sub2_shop.html">SHOP</a></h1>
+                    <h1><a href="./sub3_recipe.html">RECIPE</a></h1>
+                    <h1><a href="./sub4_event.html">EVENT</a></h1>
+                </div>
+                <div class="popup_right">
+                    <h1><a href="./sub5_community.html">COMMUNITY</a></h1>
+                    <h1><a href="#">MY PAGE</a></h1>
+                    <h1><a href="#">LOGIN</a></h1>
+                </div>
+            </div>
+        </div>
+        <!-- 메뉴 -->
+
+        <!-- 장바구니 -->
+        <div class="popup_back2">
+            <div class="popup2">
+                <h2><a href="#none">Close</a></h2>
+                <div class="popup2_left">
+                    <h1>Cart</h1>
+                    <img src="./image/index/1_main/cart_logo.png" alt="장바구니 로고">
+                    <h3>장바구니가 비었습니다.</h3>
+                </div>
+
+                <div class="popup2_right">
+                    <h4>주문예정금액</h4>
+                    <div class="order">
+                        <p>상품수</p>
+                        <p><span>0</span>개</p>
+                    </div>
+                    <div class="order2">
+                        <p>총 상품금액</p>
+                        <p><span>0</span>원</p>
+                    </div>
+                    <div class="order3">
+                        <p>배송비</p>
+                        <p><span>0</span>원</p>
+                    </div>
+                    <div class="order4">
+                        <h4>총 결제 예정 금액</h4>
+                        <p><span>0</span>원</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 장바구니 -->
+
+        <!-- 로그인 페이지 -->
+
+
+        <div class="login-wrapper">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" name="userName" placeholder="아이디">
+                <input type="password" name="userPassword" placeholder="비밀번호">
+                <label for="agree" class="chk_box">
+                    <input type="checkbox" id="agree" checked="checked">
+                    <span class="on"></span>
+                    아이디 저장
+                </label>
+
+                <input type="submit" value="로그인">
+                <input type="submit" value="회원가입">
+            </form>
+        </div>
+    </div>
+<!-- 로그인 페이지 -->
+
+<!-- js -->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<script src="./script/index.js"></script>
+</body>
+
+</html>
