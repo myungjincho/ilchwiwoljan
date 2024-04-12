@@ -240,9 +240,10 @@ header {
 }
 
 /* 메인배너 */
-.banner img{
+.banner videp{
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 
